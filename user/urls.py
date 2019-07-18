@@ -9,4 +9,5 @@ urlpatterns = [
     path('login', api.login),
     path('get-profile', api.get_profile),
     path('set-profile', api.set_profile),
+    path('upload_avatar', api.upload_avatar),
 ]
