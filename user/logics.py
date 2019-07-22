@@ -74,3 +74,7 @@ def async_upload_avatar(user, avatar):
     if ret:
         user.avatar = urljoin(config.QN_HOST, file_name)
         user.save()
+
+
+def recommed_users(user):
+    return None

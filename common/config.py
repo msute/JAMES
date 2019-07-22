@@ -20,3 +20,5 @@ QN_ACCESS_KEY = '6Y6DNU_T2qgRZoiqRqHa3Ozr9eswSc_ldcfPT5rA' #前两个是密钥
 QN_SECRET_KEY = 'JqFuzN2WUm-zIjFJVsRuCqrWTADBGvxDIXJ1aQIU'
 QN_BUCKET_NAME = 'testjames'   #上传到七牛云里面建立的空间
 QN_HOST = 'http://puu0bmu79.bkt.clouddn.com'  #云存储的地址
+
+SWIPE_LIMIT = 3     # 每日滑动上限

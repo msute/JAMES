@@ -9,7 +9,7 @@ import django
 # 设置环境
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, BASE_DIR)
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "swiper.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "swiperTest.settings")
 django.setup()
 
 
@@ -66,6 +66,7 @@ def create_robots(n):
                 location=random.choice(['bj', 'sh', 'sz', 'gz', 'cd', 'hz']),
             )
             print('created: %s %s' % (name, sex))
+            #名字重复忽略 pass跳过
         except django.db.utils.IntegrityError:
             pass
 
